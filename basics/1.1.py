@@ -1,3 +1,4 @@
+#PATTERNS 
 ''' USES NESTED LOOP 
 1. CHECK INNER & OUTER LOOP 
 2. FOR OL [ ] - count the no of lines
