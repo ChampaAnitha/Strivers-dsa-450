@@ -1,4 +1,5 @@
-#PATTERNS 
+#PATTERNS - 17-10-23
+
 ''' USES NESTED LOOP 
 1. CHECK INNER & OUTER LOOP 
 2. FOR OL [ ] - count the no of lines
