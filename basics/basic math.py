@@ -76,13 +76,19 @@ print("Reversed number:", reversed_n)
 print ("************************************************")
 
 # 6. prime /not 
-def checkPrime(n):
-    if n <= 1 :
+def is_prime(n):
+    if n <= 1:
         return False
-    elif n <= 3 :
-        return True
-    elif n%2==0 or n%3==0 :
-        return False
+    for i in range(2, int(n**0.5)+1): #Checking for divisible of 2 & sqaure root of 2
+        if n % i == 0:  #if yes then not prime 
+            return False
+    return True  #else prime 
+n = int(input("Enter a number: "))
+check_prime = is_prime(n)
+if check_prime :
+    print(" Prime")
+else:
+    print("NOT Prime")
 print ("************************************************")
 
 # 7. Extracting the digits - count , print digits 
