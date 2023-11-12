@@ -1,4 +1,4 @@
-# BASIC MATH - 24-10-23 
+''' BASIC MATH - 24-10-23 '''
 
 # 1. You are given a number ’n’. Find the number of digits of ‘n’ that evenly divide ‘n’
 def countDigits(n: int) -> int:   #parameterized function , n -> argument will return type int 
@@ -31,7 +31,7 @@ else:
     print("false")
 print ("************************************************")
 
-''' 4-11-23 , 5-11-23, 6-11-23'''
+# 4-11-23 , 5-11-23, 6-11-23 
     
 # 3. GCD - EUCLIDIAN METHOD 
 def calcGDC(n: int, m: int) -> int:
